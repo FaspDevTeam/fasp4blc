@@ -1,0 +1,58 @@
+File Name: CHANGES
+
+02/12/2023 FASP4NS 0.2.7:
+- Update fasp4ell.for by Pengtao;
+- Update NS stablized wrapper.
+
+10/16/2022 FASP4NS 0.2.6:
+- Remove compiler ordering from cmake;
+- Update FindMETIS and FindMKL;
+- Update makefile structure in dld.
+
+09/21/2022 FASP4NS 0.2.5:
+- Add IR support for NS solver;
+- Update license info;
+- Update format of ns.dat;
+- Test IR on DLD problem 901;
+- Fix a bug when IR is not set.
+
+09/03/2022 FASP4NS 0.2.4:
+- Add a new test problem from DLD;
+- Add a new read function for BLC;
+- Test DLD solver;
+- Update cmake support.
+
+08/02/2022 FASP4NS 0.2.3:
+- Fix NS solver timer;
+- Remove COLOR_RESET;
+- Add VS22 OpenMP support;
+- Add mkl=sequential for DLD solver.
+
+01/29/2021 FASP4NS 0.2.2:
+- Add VS2022 + Intel2022 oneAPI solution;
+- Fix some warnings given by oneAPI;
+- Replace Makefile with cmake;
+- Compile on Mac OSX 12.2 and GCC11.2.
+
+03/22/2018 FASP4NS 0.2.1:
+- Fix interface to Stokes-Brinkman; solver works now.
+- Update S-B test example.
+- Update ns.dat for S-B test example.
+- Fix make.inc.example for new UMFPACK.
+- Update VS10 settings: add Win32 platform.
+
+03/18/2018 FASP4NS 0.2.0:
+=======================================
+|| This is a major change of package ||
+=======================================
+- Compatible with FASPSOLVER 2.0.7.
+- Update copyright information.
+- Add log files.
+- Add doc files.
+- Add VS10 settings.
+- Fix Doxygen problems in all files.
+- Several changes to long function names.
+- Add Stokes-Brinkman test example from Yuan Tao.
+
+08/22/2012 FASP4NS 0.1.0:
+- Initial version based on FASP4MONIX
