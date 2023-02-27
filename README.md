@@ -8,12 +8,29 @@ Now you are ready to set up the build environment with cmake
 ``` bash
     > mkdir Build; cd Build; cmake .. 
 ```
- 
-To make and install all executables and libraries: 
+
+To make and install all executables and libraries:
 
 ``` bash
     > make install
 ```
+
+## Directory
+
+The directory structure of fasp4blc is designed as follows:
+
+- `demo/` : Demo examples for Stokes and NS equations
+- `dld/` : Solvers for DLD problems (Fictitious Domain method)
+- `doc/` : Documentation and website
+- `fsi/` : Preconditioners for FSI problems (ALE method)
+- `main/` : Main source code for executables
+- `modules/` : Cmake files for finding and setting dependencies
+- `src/` : Source files
+- `vs22/` : Visual studio solution (2022 version)
+- CMakeLists.txt: Main cmake script
+- LICENSE: License agreement
+- README.md: This document
+- .clang-format: For automatic source code formatting
 
 ## Compatibility
 
